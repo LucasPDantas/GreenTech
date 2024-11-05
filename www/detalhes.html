@@ -30,16 +30,18 @@
         <!-- Your main view, should have "view-main" class -->
         <div class="view view-main">
 
-            <!-- TAB BAR-->
-
             <!-- Initial Page, "data-name" contains page name -->
             <div data-name="detalhes" class="page color-theme-blue">
 
+                <!-- TAB BAR-->
                 <div class="toolbar toolbar-bottom">
-                    <div class="toolbar-inner display-flex">
-                        <div>R$1200</div>
-                        <div>
-                            <button>Adicionar Carrinho</button>
+                    <div class="toolbar-inner display-flex align-items-center justify-content-center">
+                        <div class="flex-40 text-align-center">
+                            <span class="riscado color-gray">R$ 1400</span>
+                            <h3 class="princing no-padding no-margin">R$ 1200</h3>
+                        </div>
+                        <div class="flex-60">
+                            <button class="add-cart">Adicionar Carrinho</button>
                         </div>
                     </div>
                 </div>
@@ -55,10 +57,36 @@
                         <img src="img/default.png" alt="">
                     </div>
                     <div class="prod-content">
-                        <dir class="line">
-                            <b>Nome do Produto</b>
-                            <button>Promoção</button>
-                        </dir>
+                        <div class="block">
+                            <div class="line padding-top">
+                                <b class="margin-left">Nome do Produto</b>
+                                <button class="promo-btn">Promoção</button>
+                            </div>
+                            <div class="margin-top display-flex align-items-center">
+                                <button class="margin-left btn-rates"><i class="mdi mdi-star"></i> 4.8</button>
+                                <button class="btn-rates"><i class="ri-thumb-up-fill"></i></i> 90%</button>
+                                <span class="color-gray">110 reviews</span>
+                            </div>
+                            <div class="display-flex align-items-center justify-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, nemo nobis
+                                    laudantium corrupti nostrum molestias aspernatur earum dolorum distinctio! Quod,
+                                    quas deleniti. Quam inventore numquam autem cumque, vel necessitatibus dolore.</p>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>Características</th>
+                                    <th>Detalhes</th>
+                                </tr>
+                                <tr>
+                                    <td>Bonito</td>
+                                    <td>Aqui vai o detalhe mais detalhado</td>
+                                </tr>
+                                <tr>
+                                    <td>Outro</td>
+                                    <td>Aqui vai o detalhe mais detalhado</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
